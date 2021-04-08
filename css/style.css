@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "FuturaPT-Bold";
+    src: url(../text_editor/fonts/FuturaPT-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-color: rgb(46, 223, 153);
+}
+
+nav {
+    padding: 2.6% 2% 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+a {
+    display: inline-block;
+    width: 210px;
+    height: 210px;
+    background-color: rgb(37, 122, 88);
+    font-size: 0;
+    border-style: solid;
+    border-color: rgb(37, 122, 88);
+    border-width: 5px;
+    border-radius: 15px;
+    
+}
+
+p {
+    height: 150px;
+    width: 350px;
+    background-color: rgba(49, 44, 44, 0.7);
+    font-family: "FuturaPT-Bold";
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+div {
+    padding-bottom: 5%;
+}
+
+.site_1 {
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.site_1 p {
+    padding: 50px 0 50px 10px;
+    border-radius: 0 15px 15px 0;
+}
+
+.site_2 {
+    align-self: center;
+    display: flex;
+    align-items: center;
+}
+
+.site_2 p:first-child {
+    text-align: right;
+    padding: 50px 10px 50px 0;
+    border-radius: 15px 0 0 15px;
+}
+
+.site_2 p:last-child {
+    text-align: left;
+    padding: 50px 0 50px 10px;
+    border-radius: 0 15px 15px 0;
+}
+
+.site_3 {
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+.site_3 p {
+    text-align: right;
+    padding: 50px 10px 50px 0;
+    border-radius: 15px 0 0 15px;
+}
+
+.site_1 a:hover {
+    background-color: rgba(37, 122, 88, 0);
+    background-image: url(../img/Screenshot_1.jpg);
+}
+
+.site_2 a:hover {
+    background-color: rgba(37, 122, 88, 0);
+    background-image: url(../img/Screenshot_3.jpg);
+}
+
+.site_3 a:hover {
+    background-color: rgba(37, 122, 88, 0);
+    background-image: url(../img/Screenshot_2.jpg);
+}

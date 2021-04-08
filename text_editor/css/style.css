@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "FuturaPT-Bold";
+    src: url(../fonts/FuturaPT-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Georgia-Italic";
+    src: url(../fonts/Georgia-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Geogria";
+    src: url(../fonts/Georgia.ttf);
+}
+
+@font-face {
+    font-family: "ProximaNova-Regular";
+    src: url(../fonts/ProximaNova-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .1s ease-in;
+}
+
+body {
+    background-color: rgb(70, 79, 84);
+}
+
+header {
+    display: inline-block;
+    margin-top: 47px;
+    width: 100%;
+}
+
+.input_form {
+    height: 187px;
+    margin-left: 324px;
+    padding: 45px 0 0 68px;
+    background-color: rgb(24, 24, 24); 
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+}
+
+label {
+    font-family: "ProximaNova-Regular";
+    font-size: 15px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: rgb(118, 118, 118);
+}
+
+input {
+    width: 100%;
+    background-color: rgb(24, 24, 24);
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: rgba(255, 255, 255, 0.1);
+    font-family: "Playfair Display";
+    font-size: 48px;
+    color: rgb(254, 254, 254);
+    outline: none;
+}
+
+input:focus {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.menu {
+    height: 73px;
+    margin-left: 388px;
+    padding: 21px 0 0 42px;
+    background-color: rgb(251, 192, 45);
+    box-shadow: -4px -4px 59px rgba(0, 0, 0, 0.16);
+}
+
+.images {
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    margin-right: 33px;
+    opacity: 0.5;
+}
+
+.menu img:hover {
+    opacity: 1.0;
+}
+
+main {
+    height: 41vw;
+    margin-top: -158px;
+}
+
+.letter {
+    height: 100%;
+    margin: 0 70px;
+    padding-left: 66px;
+    background-color: rgb(255, 255, 255);
+}
+
+section {
+    height: 100%;
+    padding: 260px 112px 0 56px;
+    border-style: solid;
+    border-width: 0 0 0 2px;
+    border-color: rgb(232, 236, 237);
+}
+
+.date {
+    margin-bottom: 18px;
+    font-family: "ProximaNova-Regular";
+    font-size: 20px;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    color: rgb(180, 180, 180);
+}
+
+.letter h1 {
+    font-family: "FuturaPT-Bold";
+    font-size: 78px;
+    text-transform: uppercase;
+    color: rgb(42, 42, 42);
+}
+
+.caption {
+    margin-bottom: 50px;
+    font-family: "Georgia-Italic";
+    font-size: 30px;
+    color: rgb(143, 143, 143);
+}
+
+.text {
+    margin-bottom: 30px;
+    font-family: "Georgia";
+    font-size: 27px;
+    color: rgb(0, 0, 0);
+}
